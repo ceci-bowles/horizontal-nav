@@ -1,0 +1,24 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  display: block;
+  background-color: #79756f;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Bevan', sans-serif;
+}
+
+li a {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+}
