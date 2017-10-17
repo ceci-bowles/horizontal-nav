@@ -7,18 +7,26 @@ html {
   box-sizing: inherit;
 }
 
-header {
-  display: block;
+body {
   background-color: #79756f;
+  border-color: #595652;
+  border-width: 3px;
+  margin: 0;
+  display: block;
 }
 
 h1 {
   color: #fff;
-  font-family: 'Bevan', sans-serif;
+  font-family: "Bevan", sans-serif;
 }
 
 li a {
   color: #fff;
   list-style-type: none;
   text-decoration: none;
+  display: inline;
+}
+
+nav li {
+
 }
