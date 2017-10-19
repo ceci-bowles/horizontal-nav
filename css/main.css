@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
+
 }
 
 *, *::before, *::after {
@@ -8,25 +9,50 @@ html {
 }
 
 body {
-  background-color: #79756f;
-  border-color: #595652;
-  border-width: 3px;
   margin: 0;
-  display: block;
+}
+
+header {
+  background-color: #79756f;
+  color: #fff;
+  text-align: center;
+  border-top: .2em solid #595652;
+  border-bottom: .2em solid #595652;
 }
 
 h1 {
   color: #fff;
-  font-family: "Bevan", sans-serif;
+  font-family: Bevan, serif;
+  padding: 0;
+  margin: 0;
 }
 
-li a {
+ul {
+  text-align: center;
+  padding: 0;
+  padding-bottom: .5em;
+  margin: 0;
   color: #fff;
   list-style-type: none;
   text-decoration: none;
-  display: inline;
 }
 
-nav li {
+li {
+  display: inline-block;
+}
 
+a {
+  font-family: PT-Serif, sans-serif;
+  padding: .75em;
+  margin: .3em;
+  border: 2px;
+  border-radius: 3px;
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #713837;
+}
+a:hover {
+  color: #f33;
 }
